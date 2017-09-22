@@ -61,6 +61,31 @@ curl -X PUT -d "title=Test" https://jsonplaceholder.typicode.com/posts/3
 ```
 Updates the title for id:3 to "Test"
 
+* To delete a specific JSON object on the server based on id
+```
+curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
+```
+Deletes the object associated with id:3
+
+* To authenticate with a server
+
+```
+curl -u username:password https://thesite/thedata
+```
+
+* To upload using FTP
+
+```
+curl -u username:password -T test.txt ftp://ftp.thesite/thefolder
+```
+
+* To download using FTP
+
+```
+curl -u username:password -O ftp://ftp.thesite/thefolder/test.txt
+```
+
+
 
 
 
