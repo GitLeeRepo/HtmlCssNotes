@@ -1,9 +1,20 @@
+# Overview
+
+Notes on the HTPD protocol.
+
 # HTTP Headers
 
-To get the HTTP headers from a website enter:
+* To get the HTTP headers from a website enter:
 
 ```
-wget --save-headers www.sitename.com
+curl -I www.example.com
+```
+This will display the header on the console
+
+Alternatively enter,
+
+```
+wget --save-headers www.example.com
 ```
 
 This will download the HTTP return including the headers which has useful information, such as what web server the site is using.  In this case since no
