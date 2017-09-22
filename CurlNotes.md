@@ -1,7 +1,7 @@
 # Overview
 
 Notes on the curl command line tool for transferring data via a number of protocols, including HTTP, IMAP, POP3, FILE, FTP, etc.  It is open source, it can be found on Linux distros, MacOS, and on Windows using something such as Git Bash.  Here is the 
-[main website](https://curl.haxx.se/).
+[main website](https://curl.haxx.se/).  In some respects curl is similar to wget, but much more powerful.
 
 # Commandline options
 
@@ -40,4 +40,27 @@ curl -I https://jsonplaceholder.typicode.com/posts/
 ```
 curl -o test01.json https://jsonplaceholder.typicode.com/posts/
 ```
+* Download a file using the server's name
+
+```
+curl -O https://jsonplaceholder.typicode.com/posts/
+```
+Create a file in the current directory named posts
+
+* To upload a file to the server
+
+```
+curl -d "name=bob&title=Boss Man" https://jsonplaceholder.typicode.com/posts/
+```
+Note: Since this is a test server it won't actually add the data, but it gives you feedback as if it did, including assigning an id.
+
+* To change a specific item for a specified id:
+
+```
+curl -X PUT -d "title=Test" https://jsonplaceholder.typicode.com/posts/3
+```
+Updates the title for id:3 to "Test"
+
+
+
 
