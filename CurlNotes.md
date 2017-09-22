@@ -14,7 +14,7 @@ The curl examples here are run agains the [JSONPlaceholder site](https://jsonpla
 ```
 curl https://jsonplaceholder.typicode.com/posts/
 ```
-This returns all 100 of the post test JSON objects from the site
+This returns all 100 of the test post JSON objects from the site
 
 * Filter for just id:2
 
@@ -33,5 +33,11 @@ curl -i https://jsonplaceholder.typicode.com/posts/
 
 ```
 curl -I https://jsonplaceholder.typicode.com/posts/
+```
+
+* Download content to a specific file
+
+```
+curl -o test01.json https://jsonplaceholder.typicode.com/posts/
 ```
 
