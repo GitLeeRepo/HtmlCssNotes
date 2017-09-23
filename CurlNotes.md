@@ -5,7 +5,7 @@ Notes on the curl command line tool for transferring data via a number of protoc
 
 # Commandline options
 
-* Test site
+## Test site
 
 The curl examples here are run agains the [JSONPlaceholder site](https://jsonplaceholder.typicode.com/) test site, which is a good site for testing JSON/AJAX and REST API.
 
@@ -85,7 +85,22 @@ curl -u username:password -T test.txt ftp://ftp.thesite/thefolder
 curl -u username:password -O ftp://ftp.thesite/thefolder/test.txt
 ```
 
+## GitHub examples
 
+* Get specific user info
 
+```
+curl https://api.github.com/users/username
+```
 
+## For GitHub operations that require authentication
 
+* Go to [https://github.com/settings/applications/new](https://github.com/settings/applications/new) to authorize that application
+
+* Get the Client ID and Client Secret after registering the app
+
+* Add the credentials to your query
+
+```
+curl https://api.github.com/users/username/?client_id=xxxxxx&client_secret=xxxxxx
+```
