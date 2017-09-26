@@ -93,6 +93,14 @@ curl -u username:password -O ftp://ftp.thesite/thefolder/test.txt
 curl https://api.github.com/users/username
 ```
 
+* Using jq (similar to awk/sed for JSON) to filter data
+
+This returns just the value for the name key (in this case the repository names):
+```
+curl https://api.github.com/users/GitLeeRepo/repos | jq -r '.[].name'
+```
+Note this requires jq to be installed.  For Ubuntu: `sudo apt install jq`.  For Windows [download here](https://stedolan.github.io/jq/)
+
 ## For GitHub operations that require authentication
 
 * Go to [https://github.com/settings/applications/new](https://github.com/settings/applications/new) to authorize that application
