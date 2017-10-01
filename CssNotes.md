@@ -93,10 +93,6 @@ body {
 
 ## Shortcut (combined) font syntax
 
-# Extending CSS with Sass/Less
-
-Allows the adding of programming logic such as variables and conditionals
-
 * Example Weight, size, and family combined for body tag
 
 ```css
@@ -138,3 +134,7 @@ body {
     font-size: 20px;
     color: blue;
 }
+
+# Extending CSS with Sass/Less
+
+Allows the adding of programming logic such as variables and conditionals
