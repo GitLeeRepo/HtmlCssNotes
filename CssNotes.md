@@ -6,10 +6,6 @@ Various CSS and CSS3 notes.
 
 * [W3 School CSS Tutorial](https://www.w3schools.com/css/default.asp)
 
-# CSS3 Flexbox for positioning
-
-* [CSS Flexbox in 20 minutes](https://www.youtube.com/watch?v=JJSoEo8JSnc)
-
 # Positioning with Margin, Padding, etc
 
 ## Four positions provided
@@ -35,6 +31,62 @@ Position: Top and Bottom: 10px, Left and Right: 15px
 Example: `Margin: 10px`
 
 Position: Top, Bottom, Left and Right: 10px
+
+# CSS3 Flexbox for positioning
+
+* [CSS Flexbox in 20 minutes](https://www.youtube.com/watch?v=JJSoEo8JSnc)
+
+# Colors
+
+## Types
+
+* Color Names - the basic colors name red, green, blue, etc
+
+* HTML 5 Color Names - adds a number of colors, such as coral, crimson, etc.  Along with the basic color names, there are 140 color names supported by modern browsers.
+
+* Hexadecimal - six digit hexadecimal number (#000000 for black and #ffffff for white)
+
+* RGB - using RGB values rgb(0, 0, 255) for blue
+
+## CSS Color syntax
+
+* Example for the body tag
+
+```css
+body {
+    background-color: lightgray;
+    color: black;
+}
+```
+
+# CSS fonts
+
+## Font Basics
+
+* Serif fonts are the more stylize
+
+* Sans-Serif are the straighter blockier fonts, such as Arial
+
+## Font family
+
+* Font family example for body
+
+```css
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+```
+Evaluated from left to right.  If the left most one isn't available on the browser it tries the next
+
+## Font size
+
+* Example for body tag
+
+```css
+body {
+  font-size: 20px;
+}
+
 
 # Extending CSS with Sass/Less
 
