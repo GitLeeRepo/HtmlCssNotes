@@ -172,6 +172,24 @@ body {
     color: blue;
 }
 
+## Targetting elements within a class
+
+* Target the h1 element within the container class.  This will not affect h1 elements outside the scope of this class
+
+```css
+.container h1 {
+    color: blue;
+}
+```
+
+* Multiple elements can be targetted
+
+```css
+.container h1, .container h2, .container h3 {
+    color: blue;
+}
+```
+
 # Extending CSS with Sass/Less
 
 Allows the adding of programming logic such as variables and conditionals
