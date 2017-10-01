@@ -81,7 +81,7 @@ Position: Top, Bottom, Left and Right: 10px
 
 * HTML 5 Color Names - adds a number of colors, such as coral, crimson, etc.  Along with the basic color names, there are 140 color names supported by modern browsers.
 
-* Hexadecimal - six digit hexadecimal number (#000000 for black and #ffffff for white)
+* Hexadecimal - six digit hexadecimal number (#000000 for black and #ffffff for white).  There is also an abbreviated 3 digit notation.
 
 * RGB - using RGB values rgb(0, 0, 255) for blue
 
@@ -189,7 +189,23 @@ body {
     color: blue;
 }
 ```
+# Element States
 
+* Some elements such as an anchor `<a>` can have a state (hover, active, visited, ect) that you can target with element:state notations.  For example:
+
+```css
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+```
 # Extending CSS with Sass/Less
 
 Allows the adding of programming logic such as variables and conditionals
