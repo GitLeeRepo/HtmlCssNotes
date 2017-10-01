@@ -63,9 +63,11 @@ body {
 
 ## Font Basics
 
-* Serif fonts are the more stylize
+* Serif fonts are the more stylize, such as Times New Roman
 
 * Sans-Serif are the straighter blockier fonts, such as Arial
+
+Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 
 ## Font family
 
@@ -78,16 +80,61 @@ body {
 ```
 Evaluated from left to right.  If the left most one isn't available on the browser it tries the next
 
-## Font size
+## Font size, weight
 
 * Example for body tag
 
 ```css
 body {
   font-size: 20px;
+  font-weight: normal; /* bold, etc */
 }
+```
 
+## Shortcut (combined) font syntax
 
 # Extending CSS with Sass/Less
 
 Allows the adding of programming logic such as variables and conditionals
+
+* Example Weight, size, and family combined for body tag
+
+```css
+body {
+  font: normal 20px Arial, Helvetica, sans-serif;
+}
+```
+
+## Line height
+
+* Increase the line height over the standard 1em height which gives more line spacing
+
+```css
+body {
+    line-height: 1.6em
+}
+```
+
+# Classes and Ids
+
+## General
+
+* Use Ids for unique identication of elements
+
+* Use Classes for groups of elements
+
+* Use .classname notation for classes in CSS
+
+```css
+.container {
+    width: 500px;
+    margin: auto;
+}
+```
+
+* use #id notation for Ids in CSS
+
+#pageheading {
+    font-size: 20px;
+    color: blue;
+}
