@@ -22,6 +22,7 @@ Various CSS and CSS3 notes.
 This will center the content, with 10% for the left margin and 10% for the right margin
 
 * For no margin and no padding specify 0 without a unit
+
     ```css
     body {
         margin: 0;
@@ -76,11 +77,8 @@ Position: Top, Bottom, Left and Right: 10px
 ## Types
 
 * Color Names - the basic colors name red, green, blue, etc
-
 * HTML 5 Color Names - adds a number of colors, such as coral, crimson, etc.  Along with the basic color names, there are 140 color names supported by modern browsers.
-
 * Hexadecimal - six digit hexadecimal number (#000000 for black and #ffffff for white).  There is also an abbreviated 3 digit notation.
-
 * RGB - using RGB values rgb(0, 0, 255) for blue
 
 ## CSS Color syntax
@@ -99,7 +97,6 @@ Position: Top, Bottom, Left and Right: 10px
 ## Font Basics
 
 * Serif fonts are the more stylize, such as Times New Roman
-
 * Sans-Serif are the straighter blockier fonts, such as Arial
 
 Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
@@ -151,9 +148,7 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 ## General
 
 * Use Ids for unique identication of elements
-
 * Use Classes for groups of elements
-
 * Use .classname notation for classes in CSS
 
     ```css
@@ -165,10 +160,12 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 
 * use #id notation for Ids in CSS
 
-#pageheading {
-    font-size: 20px;
-    color: blue;
-}
+    ```css
+    #pageheading {
+        font-size: 20px;
+        color: blue;
+    }
+    ```
 
 ## Targetting elements within a class
 
