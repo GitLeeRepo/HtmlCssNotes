@@ -189,6 +189,19 @@ body {
     color: blue;
 }
 ```
+
+## Targetting a specific type of **input** element within a form group named **my-form**
+
+* Targetting the **text** type of **imputs**
+
+```css
+.my-form input[type="text"] {
+    padding: 8px;
+    width: 100%
+}
+```
+Since this only targets the text type of inputs, we can stretch these to 100% of the container, without the submit type of input buttons also being stretched to 100%.
+
 # Element States
 
 * Some elements such as an anchor `<a>` can have a state (hover, active, visited, ect) that you can target with element:state notations.  For example:
