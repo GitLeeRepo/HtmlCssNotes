@@ -14,34 +14,34 @@ Various CSS and CSS3 notes.
 
 * The `margin:auto` notation places an equal size to the left and right margins
 
-```css
-body {
-    width: 80%;
-    margin: auto;
-}
-```
+    ```css
+    body {
+        width: 80%;
+        margin: auto;
+    }
+    ```
 This will center the content, with 10% for the left margin and 10% for the right margin
 
 * For no margin and no padding specify 0 without a unit
 
-```css
-body {
-    margin: 0;
-    padding: 0;
-```
+    ```css
+    body {
+        margin: 0;
+        padding: 0;
+    ```
 
 ## Margin and padding explicit notation
 
 * Example with margin, the same applies to padding
 
-```css
-body {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-```
+    ```css
+    body {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    ```
 
 ## Margin shortcut (combined) notation (also applies to padding)
 
@@ -89,12 +89,12 @@ Position: Top, Bottom, Left and Right: 10px
 
 * Example for the body tag
 
-```css
-body {
-    background-color: lightgray;
-    color: black;
-}
-```
+    ```css
+    body {
+        background-color: lightgray;
+        color: black;
+    }
+    ```
 
 # CSS fonts
 
@@ -110,43 +110,43 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 
 * Font family example for body
 
-```css
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-```
-Evaluated from left to right.  If the left most one isn't available on the browser it tries the next
+    ```css
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ```
+    Evaluated from left to right.  If the left most one isn't available on the browser it tries the next
 
 ## Font size, weight
 
 * Example for body tag
 
-```css
-body {
-  font-size: 20px;
-  font-weight: normal; /* bold, etc */
-}
-```
+    ```css
+    body {
+      font-size: 20px;
+      font-weight: normal; /* bold, etc */
+    }
+    ```
 
 ## Shortcut (combined) font syntax
 
 * Example Weight, size, and family combined for body tag
 
-```css
-body {
-  font: normal 20px Arial, Helvetica, sans-serif;
-}
-```
+    ```css
+    body {
+      font: normal 20px Arial, Helvetica, sans-serif;
+    }
+    ```
 
 ## Line height
 
 * Increase the line height over the standard 1em height which gives more line spacing
 
-```css
-body {
-    line-height: 1.6em
-}
-```
+    ```css
+    body {
+        line-height: 1.6em
+    }
+    ```
 
 # Classes and Ids
 
@@ -158,12 +158,12 @@ body {
 
 * Use .classname notation for classes in CSS
 
-```css
-.container {
-    width: 500px;
-    margin: auto;
-}
-```
+    ```css
+    .container {
+        width: 500px;
+        margin: auto;
+    }
+    ```
 
 * use #id notation for Ids in CSS
 
@@ -176,49 +176,49 @@ body {
 
 * Target the h1 element within the container class.  This will not affect h1 elements outside the scope of this class
 
-```css
-.container h1 {
-    color: blue;
-}
-```
+    ```css
+    .container h1 {
+        color: blue;
+    }
+    ```
 
 * Multiple elements can be targetted
 
-```css
-.container h1, .container h2, .container h3 {
-    color: blue;
-}
-```
+    ```css
+    .container h1, .container h2, .container h3 {
+        color: blue;
+    }
+    ```
 
 ## Targetting a specific type of **input** element within a form group named **my-form**
 
 * Targetting the **text** type of **imputs**
 
-```css
-.my-form input[type="text"] {
-    padding: 8px;
-    width: 100%
-}
-```
-Since this only targets the text type of inputs, we can stretch these to 100% of the container, without the submit type of input buttons also being stretched to 100%.
+    ```css
+    .my-form input[type="text"] {
+        padding: 8px;
+        width: 100%
+    }
+    ```
+    Since this only targets the text type of inputs, we can stretch these to 100% of the container, without the submit type of input buttons also being stretched to 100%.
 
 # Element States
 
 * Some elements such as an anchor `<a>` can have a state (hover, active, visited, ect) that you can target with element:state notations.  For example:
 
-```css
-a:hover {
-    color: red;
-}
+    ```css
+    a:hover {
+        color: red;
+    }
 
-a:active {
-    color: blue;
-}
+    a:active {
+        color: blue;
+    }
 
-a:visited {
-    color: green;
-}
-```
+    a:visited {
+        color: green;
+    }
+    ```
 # Extending CSS with Sass/Less
 
 Allows the adding of programming logic such as variables and conditionals
