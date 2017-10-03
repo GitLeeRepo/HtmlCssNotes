@@ -9,13 +9,13 @@ Notes on the HTPD protocol.
   ```
   curl -I www.example.com
   ```
-This will display the header on the console
+  This will display the header on the console
 
-Alternatively enter,
+  Alternatively enter,
 
-  ```
-  wget --save-headers www.example.com
-  ```
+    ```
+    wget --save-headers www.example.com
+    ```
 
-This will download the HTTP return including the headers which has useful information, such as what web server the site is using.  In this case since no
-specific web page is requested it will likely create the default index.html file with the headers included.
+  This will download the HTTP return including the headers which has useful information, such as what web server the site is using.  In this case since no
+  specific web page is requested it will likely create the default index.html file with the headers included.
