@@ -11,7 +11,6 @@ Various CSS and CSS3 notes.
 ## Margin and Padding
 
 * Margin adds space to the outside of the element, padding adds space to the inside. The border is between the margin and the padding.
-
 * The `margin:auto` notation places an equal size to the left and right margins
 
     ```css
@@ -23,7 +22,6 @@ Various CSS and CSS3 notes.
 This will center the content, with 10% for the left margin and 10% for the right margin
 
 * For no margin and no padding specify 0 without a unit
-
     ```css
     body {
         margin: 0;
