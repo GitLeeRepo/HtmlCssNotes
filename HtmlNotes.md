@@ -23,9 +23,7 @@ Notes on HTML, with HTML5 being emphasised.  Note meant to be an indepth list of
 By default Visual Studio uses XHTML syntax for closing tags, e.g. `<br />` rather than HTML 5 which doesn't require this for tags that don't have inner HTML content, so `<br>` is preferred.  To change this default:
 
 * Navigate on the menu to **Tools/Options**
-
 * Select **Text Editor/HTML/Advanced** from the options
-
 * Under **Completion** set **XHTML Coding Style** to **False**
 
 ## Visual Studio Code
