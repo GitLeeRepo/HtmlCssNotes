@@ -1,6 +1,6 @@
 # Overview
 
-Notes on HTML, with HTML5 being emphasised.  Note meant to be an indepth list of HTML elements, but simply noting a few things.  Refer to the References for a more indepth list of HTML features and elements
+Notes on HTML, with HTML5 being emphasised.  Note meant to be an in-depth list of HTML elements, but simply noting a few things.  Refer to the References for a more in-depth list of HTML features and elements
 
 # References
 
@@ -10,7 +10,7 @@ Notes on HTML, with HTML5 being emphasised.  Note meant to be an indepth list of
 
 ## Links
 
-* To have a linke (typically external) open in a new browser tab add the `target="_blank"` attribute to the anchor `<a>` element.  For example:
+* To have a link (typically external) open in a new browser tab add the `target="_blank"` attribute to the anchor `<a>` element.  For example:
 
   ```html
   <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">W3 Schools HTML 5</a><br>

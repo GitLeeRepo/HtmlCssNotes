@@ -1,6 +1,6 @@
 # Overview
 
-Notes on the HTPD protocol.
+Notes on the HTTP protocol.
 
 # HTTP Headers
 
