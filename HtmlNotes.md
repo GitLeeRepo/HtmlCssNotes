@@ -1,6 +1,6 @@
 # Overview
 
-Notes on HTML, with HTML5 being emphasised.  Note meant to be an in-depth list of HTML elements, but simply noting a few things.  Refer to the References for a more in-depth list of HTML features and elements
+Notes on HTML, with HTML5 being emphasized.  Note meant to be an in-depth list of HTML elements, but simply noting a few things.  Refer to the References for a more in-depth list of HTML features and elements
 
 # References
 

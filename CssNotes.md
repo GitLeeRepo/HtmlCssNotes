@@ -147,7 +147,7 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 
 ## General
 
-* Use Ids for unique identication of elements
+* Use Ids for unique identification of elements
 * Use Classes for groups of elements
 * Use .classname notation for classes in CSS
 
@@ -167,7 +167,7 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
     }
     ```
 
-## Targetting elements within a class
+## Targeting elements within a class
 
 * Target the h1 element within the container class.  This will not affect h1 elements outside the scope of this class
 
@@ -177,7 +177,7 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
     }
     ```
 
-* Multiple elements can be targetted
+* Multiple elements can be targeted
 
     ```css
     .container h1, .container h2, .container h3 {
@@ -185,9 +185,9 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
     }
     ```
 
-## Targetting a specific type of **input** element within a form group named **my-form**
+## Targeting a specific type of **input** element within a form group named **my-form**
 
-* Targetting the **text** type of **imputs**
+* Targeting the **text** type of **inputs**
 
     ```css
     .my-form input[type="text"] {
@@ -199,7 +199,7 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 
 # Element States
 
-* Some elements such as an anchor `<a>` can have a state (hover, active, visited, ect) that you can target with element:state notations.  For example:
+* Some elements such as an anchor `<a>` can have a state (hover, active, visited, etc) that you can target with element:state notations.  For example:
 
     ```css
     a:hover {
