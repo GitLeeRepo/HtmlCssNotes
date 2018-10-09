@@ -57,7 +57,7 @@ p {
 
 ```css
 form input {
-    width: 50%l
+    width: 50%;
 }
 ```
 
