@@ -125,6 +125,7 @@ When you define multiple styles, all styles will **cascade** into a new virtual 
 
 * Inline Styles
 * External and Internal Stylesheets defined in the **head** section of the **HTML**
+  * within the **head** section the last style defined takes precedence over the prior styles for the same style
 * Default **Browser Styles**
 
 # Positioning
@@ -335,6 +336,68 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
         color: green;
     }
     ```
+# Display Property
+
+The **Display Property** is the most important CSS property for **controlling layout**.  Every element has a **default display value**.  There are two types of **Display properties**:
+
+* **Block Layout** -- block elments always **start with a newline** and take the **full width** available
+* **Inline Layout** -- does not start on a newline and takes only the **width needed**
+
+## Block Element Examples
+
+* div
+* p
+* h1 through h6
+* form
+* header
+* footer
+* section
+
+## Inline Examples 
+
+* span
+* a
+* img
+
+## Display: none
+
+**Display: none** is commonly used with JavaScript to hide and show elements without deleting and recreating them
+
+## Overriding Display
+
+To create **horizontal list items** override the default **Block Display**:
+
+```css
+li {
+    display: inline;
+}
+```
+
+# CSS Units
+
+## Absolute Units
+
+* **cm** -- centimeters
+* **mm** -- millimeters
+* **in** --inches (1in = 96px = 2.54cm)
+* **px** -- pixels (1px = 1/96th of 1in)
+* **pt** -- points (1pt = 1/72 of 1in)
+* **pc** --picas (1pc = 12 pt)
+
+## Relative Units
+
+* **em** -- Relative to the font-size of the element (2em means 2 times the size of the current font)	
+* **ex** -- Relative to the x-height of the current font (rarely used)	
+* **ch** -- Relative to width of the "0" (zero)	
+* **rem** -- Relative to font-size of the root element	
+* **vw** -- Relative to 1% of the width of the viewport*	
+* **vh** -- Relative to 1% of the height of the viewport*	
+* **vmin** -- Relative to 1% of viewport's* smaller dimension	
+* **vmax** -- Relative to 1% of viewport's* larger dimension	
+* **%** -- Relative to the parent element
+
+Note that **em** and **rem** are helpful in creating **scalable** layouts.
+
 # Extending CSS with Sass/Less
 
 Allows the adding of programming logic such as variables and conditionals
