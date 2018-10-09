@@ -6,6 +6,92 @@ Various CSS and CSS3 notes.
 
 * [W3 School CSS Tutorial](https://www.w3schools.com/css/default.asp)
 
+# CSS Selectors
+
+## Element Selector
+
+**Element selectors** use the **element name**
+
+```css
+p {
+    color: black;
+}
+```
+
+## ID Selector
+
+**ID selectors** use the elements **id** preceeded by a **hash \#**
+
+```css
+#myId {
+    font-weight: bold;
+    background-color: aqua;
+}
+```
+
+## Class Selector
+
+**Class selectors** apply to an elements **class attribute** proceeded by a **period .**
+
+```css
+.leftsidebar {
+    height: 100%;
+    width: 15%;
+    ...
+}
+```
+
+## Descendent Selector
+
+**Descedent selectors** apply only to the **specified element** name contained **within the parent element**.  For example the following will only appy to an **input** element within a **form** element, but not an **input** element outside of a **form**.
+
+```css
+form input {
+    width: 50%l
+}
+```
+
+## Universal Selector
+
+**Universal selectors** is used to select the name of **all element types** using an **asterisk \***
+
+```css
+* {
+    color: blue;
+}
+```
+
+## Child Selector
+
+**Child selectors** select an element only if it is a **direct child** of another element.  The following affects all **paragraphs** directly under the **body** element, but would not effect a **paragraph** that is further nested under another element such as **div**:
+
+```css
+body>p {
+    color: blue;
+}
+```
+
+## Attribute Selector
+
+**Attribute selectors** selects elements with **specific attributes**:
+
+```css
+input[type="text"] {
+    color: blue;
+}
+```
+
+## Grouping Selectors
+
+You can apply the same styles to multiple elements by **group selectors** together, **separating them with commas**:
+
+```css
+h1, h2, h3, h4 {
+    color: blue;
+}
+
+```
+
 # Positioning
 
 ## Margin and Padding
