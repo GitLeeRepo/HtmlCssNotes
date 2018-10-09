@@ -8,6 +8,16 @@ Various CSS and CSS3 notes.
 
 # CSS Selectors
 
+**CSS** consists of **Selectors** followed by **Declaration blocks**.  There are several types of **selectors**
+
+* Element Selector
+* ID Selector
+* Class Selector
+* Descendent Selector
+* Universal Selector
+* Child Selector
+* Attribute Selector
+
 ## Element Selector
 
 **Element selectors** use the **element name**
@@ -89,8 +99,33 @@ You can apply the same styles to multiple elements by **group selectors** togeth
 h1, h2, h3, h4 {
     color: blue;
 }
-
 ```
+
+## Pseudo Elements
+
+**Pseudo elements** are used to style specific parts or several parts of HTML elements.  They allow you to add special effects to certain elements.  Common pseudo elements include:
+
+* **:first-line**
+* **:first-letter**
+* **:before**
+* **:after**
+
+For example:
+
+```css
+p:first-letter {
+    color: blue;
+    font-size: x-large;
+}
+```
+
+# Cascading Order
+
+When you define multiple styles, all styles will **cascade** into a new virtual style sheet in the following order of priority:
+
+* Inline Styles
+* External and Internal Stylesheets defined in the **head** section of the **HTML**
+* Default **Browser Styles**
 
 # Positioning
 
