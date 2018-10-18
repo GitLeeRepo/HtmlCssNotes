@@ -119,6 +119,52 @@ p:first-letter {
 }
 ```
 
+## Defining and Using Subclasses
+
+### Define a Subclass
+
+To define a **subclass** you use the name of the **parent class** you want to **subclass** from and separate them with a **period without any spaces**.  For example **`.class.subclass {`**.  This is useful for providing **variations** from your main class.
+
+This example defines a **.form-control** class, with several **subclasses** used to offer various **textarea heights**, although it isn't specifically tied to a **textarea** control, so you could use it for other **child controls** of the **form-control**.
+
+```css
+.form-control {
+    display:block;
+    margin: 1rem;
+    width:50%;
+    height:calc(2rem + 2px);
+    padding:0.375rem 0.75rem;
+    font-size:0.9375rem;
+    line-height:1.5;
+    color:#495057;background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+    border-radius:0;
+}
+
+/* subclasses of .form-control for textarea height */
+
+.form-control.textarea-stdheight {
+    height:calc(4.15625rem + 2px);  
+}
+
+.form-control.textarea-6remheight {
+    height:calc(6.0rem + 2px);  
+}
+
+.form-control.textarea-8remheight {
+    height:calc(8.0rem + 2px);  
+}
+```
+
+### Using the Subclass
+
+To use the **subclass** you specify the **parentClass subClass** names for the **class=** assignment of the control.
+
+```html
+<textarea name="base64text" class="form-control textarea-8remheight"></textarea>
+```
+
 # Cascading Order
 
 When you define multiple styles, all styles will **cascade** into a new virtual style sheet in the following order of priority:
