@@ -159,7 +159,7 @@ This example defines a **.form-control** class, with several **subclasses** used
 
 ### Using the Subclass
 
-To use the **subclass** you specify the **parentClass subClass** names for the **class=** assignment of the control.
+To use the **subclass** you specify a **class=parentClass subClass** (separate by a space) for the control.
 
 ```html
 <textarea name="base64text" class="form-control textarea-8remheight"></textarea>
