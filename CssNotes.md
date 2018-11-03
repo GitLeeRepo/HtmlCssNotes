@@ -30,7 +30,7 @@ p {
 
 ## ID Selector
 
-**ID selectors** use the elements **id** preceeded by a **hash \#**
+**ID selectors** use the elements **id** preceded by a **hash \#**
 
 ```css
 #myId {
@@ -53,7 +53,7 @@ p {
 
 ## Descendent Selector
 
-**Descedent selectors** apply only to the **specified element** name contained **within the parent element**.  For example the following will only appy to an **input** element within a **form** element, but not an **input** element outside of a **form**.
+**Descendent selectors** apply only to the **specified element** name contained **within the parent element**.  For example the following will only apply to an **input** element within a **form** element, but not an **input** element outside of a **form**.
 
 ```css
 form input {
@@ -386,7 +386,7 @@ Refer to [W3 Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 
 The **Display Property** is the most important CSS property for **controlling layout**.  Every element has a **default display value**.  There are two types of **Display properties**:
 
-* **Block Layout** -- block elments always **start with a newline** and take the **full width** available
+* **Block Layout** -- block elements always **start with a newline** and take the **full width** available
 * **Inline Layout** -- does not start on a newline and takes only the **width needed**
 
 ## Block Element Examples
